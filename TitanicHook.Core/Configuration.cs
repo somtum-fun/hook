@@ -24,8 +24,8 @@ public class Configuration
     // Log to a file
     public bool LogToFile { get; set; } = false;
     
-    // Domain of the server (e.g. blueskychan.dev)
-    public string ServerName { get; set; } = "blueskychan.dev";
+    // Domain of the server (e.g. somtum.fun)
+    public string ServerName { get; set; } = "somtum.fun";
     
     // Whether to hook WSAConnect (TCP Bancho)
     public bool HookTcpConnections { get; set; } = true;
